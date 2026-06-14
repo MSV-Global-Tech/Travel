@@ -1,0 +1,34 @@
+{
+  "placeholderImages": [
+    {
+      "id": "cat-heritage",
+      "description": "Taj Mahal - heritage wonder of India",
+      "imageUrl": "/taj.jpg",
+      "imageHint": "indian heritage taj mahal"
+    },
+    {
+      "id": "cat-backwaters",
+      "description": "Kerala backwaters - serene houseboat on calm waters",
+      "imageUrl": "/golden.webp",
+      "imageHint": "kerala backwaters"
+    },
+    {
+      "id": "cat-mountains",
+      "description": "Himalayan peaks - snow-capped mountains",
+      "imageUrl": "/KASHMIR.jpg",
+      "imageHint": "himalayan mountains"
+    },
+    {
+      "id": "cat-desert",
+      "description": "Rajasthan royal desert - sand dunes at sunset",
+      "imageUrl": "/hampi.webp",
+      "imageHint": "rajasthan desert"
+    },
+    {
+      "id": "cat-beaches",
+      "description": "Goa golden beaches - tropical paradise",
+      "imageUrl": "/india.jpg",
+      "imageHint": "goa beach"
+    }
+  ]
+}
