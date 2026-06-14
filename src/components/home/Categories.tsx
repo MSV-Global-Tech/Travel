@@ -9,11 +9,11 @@ import { cn } from '@/lib/utils'
 
 export const Categories = () => {
   const categories = [
-    { name: 'Heritage Wonders', id: 'cat-heritage', span: 'col-span-1 md:col-span-2' },
-    { name: 'Serene Backwaters', id: 'cat-backwaters', span: 'col-span-1' },
+    { name: 'Taj Mahal', id: 'cat-heritage', span: 'col-span-1 md:col-span-2' },
+    { name: 'Golden Temple', id: 'cat-backwaters', span: 'col-span-1' },
     { name: 'Himalayan Peaks', id: 'cat-mountains', span: 'col-span-1' },
-    { name: 'Royal Deserts', id: 'cat-desert', span: 'col-span-1 md:col-span-2' },
-    { name: 'Golden Beaches', id: 'cat-beaches', span: 'col-span-1' },
+    { name: 'Hampi', id: 'cat-desert', span: 'col-span-1 md:col-span-2' },
+    { name: 'India Gate', id: 'cat-beaches', span: 'col-span-1' },
   ]
 
   return (
