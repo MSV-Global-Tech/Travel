@@ -6,7 +6,7 @@ import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { Button } from '@/components/ui/button'
 import { PlaceHolderImages } from '@/lib/placeholder-images'
-import { Compass } from 'lucide-react'
+
 import Link from 'next/link'
 
 const handleDisabledClick = (e: React.MouseEvent) => {
@@ -39,17 +39,7 @@ export const Hero = () => {
       {/* Content */}
       <div className="container mx-auto px-6 relative z-10 text-white">
         <div className="max-w-3xl">
-          <motion.div 
-            initial={{ opacity: 0, x: -20 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-            className="flex items-center space-x-2 mb-6"
-          >
-            <Compass className="w-5 h-5 text-secondary animate-spin-slow" />
-            <span className="uppercase tracking-[0.4em] text-[10px] sm:text-xs font-bold text-secondary">
-              Bespoke Global Journeys
-            </span>
-          </motion.div>
+
           
           <motion.h1 
             initial={{ opacity: 0, y: 30 }}
