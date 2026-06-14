@@ -79,7 +79,7 @@ export const Hero = () => {
             <Button size="lg" onClick={handleDisabledClick} className="bg-primary hover:bg-primary/90 text-white px-10 rounded-full tracking-widest h-14 uppercase text-xs font-bold transition-all shadow-xl hover:scale-105">
               Explore Destinations
             </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-black px-10 rounded-full tracking-widest h-14 uppercase text-xs font-bold transition-all" asChild>
+            <Button size="lg" variant="outline" className="border-white text-black bg-white hover:bg-white/90 hover:text-black px-10 rounded-full tracking-widest h-14 uppercase text-xs font-bold transition-all" asChild>
               <Link href="/book">Plan My Trip</Link>
             </Button>
           </motion.div>
